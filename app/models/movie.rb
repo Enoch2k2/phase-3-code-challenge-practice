@@ -24,7 +24,7 @@ class Movie
     end
 
     return 0 if avg_rating == 0
-    avg_rating / self.reviews.length
+    (avg_rating.to_f / self.reviews.length.to_f).to_f
   end
 
   def self.highest_rated

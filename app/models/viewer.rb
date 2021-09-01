@@ -28,7 +28,7 @@ class Viewer
     unless reviewed_movie?(movie)
       Review.new(self, movie, rating)
     else
-      review = Review.all.find {|review| review.movie == movie && review.viewer == self}
+      review = self.reviews.find {|review| review.movie == movie }
       review.rating = rating
     end
   end

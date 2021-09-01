@@ -2,6 +2,7 @@ class Review
   attr_accessor :viewer, :movie, :rating
 
   @@all = []
+  
   def initialize(viewer, movie, rating)
     self.viewer = viewer
     self.movie = movie

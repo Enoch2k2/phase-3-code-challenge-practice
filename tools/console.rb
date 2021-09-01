@@ -26,6 +26,8 @@ sarah.rate_movie(star_wars, 5)
 susan.rate_movie(star_wars, 4)
 mike.rate_movie(star_wars, 5)
 
+bob.rate_movie(lotr, 6)
+
 # ===== WARNING! DO NOT EDIT BELOW THIS LINE ===== #
 # ===== EDITED ===== #
 binding.pry
