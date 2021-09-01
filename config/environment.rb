@@ -1,6 +1,6 @@
 # require the Bundler module
 require 'bundler/setup'
-
+require 'require_all'
 # require all gems defined in the Gemfile
 Bundler.require
 
